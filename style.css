@@ -1,0 +1,56 @@
+content{
+   
+    font-family: 'Lato', sans-serif;
+
+}
+
+row{
+    margin-top: 1vw;
+}
+
+.button{
+    font-size: 1vw;
+  margin-bottom: 1vw;
+}
+
+.player-name{
+    font-size: 1.5vw;
+
+}
+.score-player{
+    color: red;
+    font-size: 2vw;
+    margin-top: 1vw;
+}
+
+
+.current-div-score{
+    background-color: red;
+    width: 40%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    font-size: 1vw;
+}
+.current-score{
+    font-size: 2vw;
+    color: white;
+    margin: 0;
+}
+
+
+#bottom-button{
+    margin-top: 10vw;
+}
+
+.select-player{
+    display: none;
+    margin-left: 2vw;
+    font-size: 2vw;
+}
+
+:root {
+    text-align: center;
+    
+}
