@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Evaluation JS</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <game>
+            <content class="padding">
+                <grid class="background">
+                        <row>  
+                            <col>
+                                <button id="new-game" class="button">
+                                    <label>NEW GAME</label>    
+                                </button>     
+                            </col>
+                        </row>
+                        
+                        <row class="justify-content-around">
+                            <col>
+                                    <div>
+                                        <p class="player-name" style="color: gray;">PLAYER 1<span id="player1" class="player"> Your turn</span></p>
+                                        <p id="score1" class="score-player">0</p>
+                                    </div>
+                                    <div class="current-div-score">
+                                        <p>CURRENT</p>
+                                        <p id="dice-result-1" class="current-score">0</p>
+                                    </div>
+                            </col>
+                            <col>
+                                    
+                                        <div style="width: 10vw; margin: auto;"  id="img-result"></div>
+                                    
+                                    <div id="bottom-button">
+                                        <div>
+                                            <button  id="throw-dice" class="button">
+                                               
+                                                <label>ROLL DICE</label>    
+                                            </button>     
+                                        </div>
+                                        <div>
+                                            <button id="add-to-score" class="button">
+                                                
+                                                <label>HOLD</label>    
+                                            </button>   
+                                        </div> 
+                                    </div> 
+                            </col>
+                            <col>
+                                <div>
+                                    <p class="player-name">PLAYER 2<span id="player2" class="player"> Your turn</span></p>
+                                    <p id="score2" class="score-player">0</p>
+                                </div>
+                                <div class="current-div-score">
+                                    <p>CURRENT</p>
+                                    <p id="dice-result-2" class="current-score">0</p>
+                                </div>
+                            </col>
+                        </row> 
+                  </grid>
+            </content>
+          </game>
+
+    
+    
+    
+     
+    
+    <script src="script.js"></script>  
+    
+
+    </body>
+
+</html>
